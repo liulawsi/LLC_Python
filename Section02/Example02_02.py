@@ -5,9 +5,9 @@
     Example02_02
 """
 
-score1 = float(input("請輸入第一科成績="))
-score2 = float(input("請輸入第二科成績="))
-score3 = float(input("請輸入第三科成績="))
+score1 = eval(input("請輸入第一科成績="))
+score2 = eval(input("請輸入第二科成績="))
+score3 = eval(input("請輸入第三科成績="))
 
 total = score1 + score2 + score3
 #total = sum(score1, score2, score3)

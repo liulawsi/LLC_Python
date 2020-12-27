@@ -5,8 +5,8 @@
     Example02_01
 """
 
-h = float(input("請輸入矩形長="))
-w = float(input("請輸入矩形寬="))
+h = eval(input("請輸入矩形長="))
+w = eval(input("請輸入矩形寬="))
 
 area = h*w
 
