@@ -20,3 +20,4 @@ while True:
     else:
         print("輸入錯誤！")
 # end of while True     
+
