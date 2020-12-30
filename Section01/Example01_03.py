@@ -8,7 +8,8 @@
 a = eval(input("A="))
 b = eval(input("B="))
 
+area = a*b
 
-print("AxB=", a*b)
+print("AxB=", area)
 
 
