@@ -2,14 +2,17 @@
 """
     單元：04_迴圈大法
     Python 簡易程式範例
-    Example04_03
+    Example04_07
 """
 
 while True:
-    num = int(input("請輸入整數N="))    
+    result=1
+    num =int(input("請輸入整數N="))
     for i in range(1,num):
-        print(i,"+",end="")
+        if num % i == 0:
+            print(i,",",end="")
     # for-end
-    print(num)
 #while end
 
+
+    
