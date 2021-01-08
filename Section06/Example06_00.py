@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-    單元：05_串列(List)一定要認識
+    單元：06_串列(List)一定要認識
     Python 簡易程式範例
-    Example05_00
+    Example06_00
 """
 
 Player=["Lebrom James", 1984, 206, 113, 4,]

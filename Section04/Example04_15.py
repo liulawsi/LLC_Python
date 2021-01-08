@@ -13,8 +13,10 @@ while True:
     bottom = 1
     guess = 0
     while guess != bomb:
-        print("請輸入正整數(", bottom,"～",top,")=")
-        guess = int(input())
+        #print("請輸入正整數(%d～%d)=" % (bottom,top))
+        #guess = int(input())
+        #guess = int(input("請輸入正整數(%d～%d)=" % (bottom,top)))
+        guess = int(input(f"請輸入正整數({bottom}～{top})="))
         if guess > bomb:
             top = guess - 1
         if guess < bomb:
