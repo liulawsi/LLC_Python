@@ -19,5 +19,13 @@ while N > 0:
     
     for i in range(2,N+1):
         if numbers[i] == 0: print(i,",",sep="",end="")
+    
+    '''
+    #用enumerate的結果取得(顯示)方案
+    print()
+    results = enumerate(numbers[2:],2)
+    for item in results:
+        if item[1] == 0: print(item[0],",",sep="",end="")
+    '''
 # while end
 
