@@ -15,7 +15,7 @@ while True:
         line.append(1)
         pascal.append(line)
     
-    for l in pascal:
-        print(l)
+    for row in pascal:
+        print(row)
 # while-end
 
