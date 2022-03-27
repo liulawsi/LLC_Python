@@ -5,11 +5,14 @@
     Example01_03
 """
 
+#a = input("A=")
+#b = input("B=")
+
 a = eval(input("A="))
 b = eval(input("B="))
 
-area = a*b
+result = a*b
 
-print("AxB=", area)
+print("AxB=", result)
 
 

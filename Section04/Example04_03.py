@@ -7,9 +7,12 @@
 
 while True:
     num = int(input("請輸入整數N="))    
-    for i in range(1,num):
-        print(i,"+",end="")
+    for i in range(1,num+1):
+        print(i,end="")
+        if i != num:
+            print("+",end="")
     # for-end
-    print(num)
 #while end
+
+
 

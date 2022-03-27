@@ -16,7 +16,11 @@ print("股票代號：", stock6547.sid)
 print("收盤價：",stock6547.price)
 
 plt.title("高端疫苗", fontproperties=myFont, fontsize = 20)
+stock6547.fetch_from(2020,1)
 plt.plot(stock6547.price, 'r-')
 plt.show()
+
+
+
 
 

@@ -14,7 +14,7 @@ myFont = matplotlib.font_manager.FontProperties(
 plt.title("高端疫苗", fontproperties=myFont, fontsize = 20)
 
 stock6547 = twstock.Stock("6547")
-stock6547.fetch_from(2020, 8)
+stock6547.fetch_from(2021, 6)
 
 prices1 = list(filter(None, stock6547.price))
 avg30 = stock6547.moving_average(prices1, 30)
@@ -30,7 +30,7 @@ plt.plot(avg30, 'y-',label="30日線")
 plt.plot(avg5, 'c-',label="5日線")
 
 plt.text(maxidx-80, stockMax, "最高價："+ str(stockMax), fontproperties=myFont)
-plt.legend(prop=myFont)
+plt.legend(prop=myFont, loc='lower right')
 plt.xlabel("2020年8月以來交易天數", fontproperties=myFont)
 plt.ylabel("股價", fontproperties=myFont)
 plt.grid()

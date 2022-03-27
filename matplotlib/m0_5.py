@@ -23,7 +23,10 @@ plt.title("遊客數 2020 vs 2021",fontproperties=myfont)
 plt.ylabel("人數",fontproperties=myfont) # y label
 plt.xlabel("月份",fontproperties=myfont) # x label
 plt.text(4,299,"最大值",fontproperties=myfont)
+plt.savefig("tourist2021.jpg")
 plt.show()
+
+
 
 
 

@@ -16,4 +16,3 @@ while True:
         print(season, "月是秋季")
     elif season <= 12:
         print(season, "月是冬季")
-# end of while True     

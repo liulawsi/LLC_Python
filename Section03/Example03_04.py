@@ -4,20 +4,21 @@
     Python 簡易程式範例
     Example03_04
 """
-a = eval(input("請輸入整數A="))
-b = eval(input("請輸入整數B="))
-c = eval(input("請輸入整數C="))
+while True:
+    a = eval(input("請輸入整數A="))
+    b = eval(input("請輸入整數B="))
+    c = eval(input("請輸入整數C="))
 
-if a > b :
-    if a > c:
-        print("The Max=", a)
+    if a > b :
+        if a > c:
+            print("The Max=", a)
+        else:
+            print("The Max=", c)
     else:
-        print("The Max=", c)
-else:
-    if b > c:
-        print("The Max=", b)    
-    else:
-        print("The Max=", c)
+        if b > c:
+            print("The Max=", b)    
+        else:
+            print("The Max=", c)
 """    
 #方法二  
 if a >= b and a >= c:

@@ -8,7 +8,7 @@
 while True:
     result=1
     num =int(input("請輸入整數N="))
-    for i in range(1,num):
+    for i in range(1,num+1):
         if num % i == 0:
             print(i,",",end="")
     # for-end

@@ -5,9 +5,9 @@
     Example01_02
 """
 
-print("請問大名是？",end="")
+#print("請問大名是？",end="")
 
-name = input()
+name = input("2請問大名是？")
 
-print("Hello, ", name, "！")
+print("Hello,", name, "！")
 
